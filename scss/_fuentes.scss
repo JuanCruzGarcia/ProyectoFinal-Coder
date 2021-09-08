@@ -1,0 +1,70 @@
+$fontFamily: 'Relaway', sans-serif; 
+$titulo:200%;
+$ptexto:110%;
+
+$vista: desktop;
+
+body{
+    @if $vista == desktop {
+
+        h1{ 
+        margin-left: 15px;
+        margin-top: 15px;
+
+            font{
+                size:$titulo;
+                family: $fontFamily;
+                weight: bold;
+                }
+        }
+
+        h2{
+            font{
+                size: $titulo;
+                family: $fontFamily;
+                weight: bold;
+                }
+        }
+
+        h4{
+            family:$fontFamily;
+            weight: bold;
+        }
+
+        p {
+            font{ 
+            size:$ptexto;
+            family:$fontFamily;
+            }
+        }
+    }
+
+    @else if $vista == mobile {
+
+        h1{
+            font{
+                text-align: center;
+                }       
+        }
+
+        h2{
+            font{
+                size: $titulo;
+                family: $fontFamily;
+                weight: bold;
+                }
+        }
+
+        p {
+            font{ 
+            size:$ptexto;
+            family:$fontFamily;
+            text-alig: center;
+            }
+        }
+    }
+}
+
+.negrita{
+    font-weight: bold;
+}

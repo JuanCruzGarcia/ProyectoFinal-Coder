@@ -1,0 +1,36 @@
+@import "colores";
+
+.gradiente{
+    background: linear-gradient($gris,$negroF);
+    width: 100%;
+ 
+    }
+
+    .footerLinks a{
+        text-decoration: none;
+        color: $negroT; 
+        display: block;
+        margin-left: 15px;
+   }
+
+   .container-fluid{
+
+        padding: 0;
+        margin: 0;
+    }
+    
+.footerPadding{
+    
+    padding:20px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .footerLinks a{
+        text-decoration: none;
+        color: $negroT; 
+        display: block;
+        margin-left: 5px;
+   }
+    
+}

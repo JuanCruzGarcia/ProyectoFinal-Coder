@@ -1,0 +1,52 @@
+@import "colores";
+@import "fuentes";
+@import "imagenes";
+@import "footer";
+@import "nav";
+
+
+
+.paddingSeccion{
+
+	padding:50px;
+}
+
+@media only screen and (max-width: 767px){
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+$vista: mobile;
+
+.Destacados{
+    margin-left: 50px;
+}
+
+
+}
+
+
+

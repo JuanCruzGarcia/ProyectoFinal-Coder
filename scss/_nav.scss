@@ -1,0 +1,18 @@
+@import "colores";
+
+
+
+.navBg{
+    background-color: $nav;
+    ul{
+        li{
+             a{
+                font-family: $fontFamily;
+                
+                }
+          }
+        }
+}
+
+
+

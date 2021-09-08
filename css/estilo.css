@@ -1,0 +1,128 @@
+h1 {
+  color: cadetblue; }
+
+h2 {
+  color: cadetblue; }
+
+p {
+  color: #030303; }
+
+h4 {
+  color: cadetblue; }
+
+body h1 {
+  margin-left: 15px;
+  margin-top: 15px; }
+  body h1 font {
+    size: 200%;
+    family: "Relaway", sans-serif;
+    weight: bold; }
+
+body h2 font {
+  size: 200%;
+  family: "Relaway", sans-serif;
+  weight: bold; }
+
+body h4 {
+  family: "Relaway", sans-serif;
+  weight: bold; }
+
+body p font {
+  size: 110%;
+  family: "Relaway", sans-serif; }
+
+.negrita {
+  font-weight: bold; }
+
+.img-fluid {
+  width: 50%; }
+
+.imgMarcas {
+  width: 30%;
+  display: block; }
+
+.imgRedes {
+  display: block;
+  padding: 10px; }
+
+.player {
+  width: 10%; }
+
+.transformacion :hover {
+  transform: scale(1.5, 1.5);
+  transition: 2s; }
+
+@media only screen and (max-width: 767px) {
+  .imgProductos {
+    padding: 10px; } }
+
+h1 {
+  color: cadetblue; }
+
+h2 {
+  color: cadetblue; }
+
+p {
+  color: #030303; }
+
+h4 {
+  color: cadetblue; }
+
+.gradiente {
+  background: linear-gradient(#CDD0D0, #363636);
+  width: 100%; }
+
+.footerLinks a {
+  text-decoration: none;
+  color: #030303;
+  display: block;
+  margin-left: 15px; }
+
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+
+.footerPadding {
+  padding: 20px; }
+
+@media only screen and (max-width: 767px) {
+  .footerLinks a {
+    text-decoration: none;
+    color: #030303;
+    display: block;
+    margin-left: 5px; } }
+
+h1 {
+  color: cadetblue; }
+
+h2 {
+  color: cadetblue; }
+
+p {
+  color: #030303; }
+
+h4 {
+  color: cadetblue; }
+
+.navBg {
+  background-color: #333; }
+  .navBg ul li a {
+    font-family: "Relaway", sans-serif; }
+
+.paddingSeccion {
+  padding: 50px; }
+
+@media only screen and (max-width: 767px) {
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0; }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  .Destacados {
+    margin-left: 50px; } }
