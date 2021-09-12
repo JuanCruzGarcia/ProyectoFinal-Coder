@@ -5,10 +5,13 @@ h2 {
   color: cadetblue; }
 
 p {
-  color: #030303; }
+  color: #FFFFFF; }
 
 h4 {
   color: cadetblue; }
+
+label {
+  color: #FFFFFF; }
 
 body h1 {
   margin-left: 15px;
@@ -63,13 +66,16 @@ h2 {
   color: cadetblue; }
 
 p {
-  color: #030303; }
+  color: #FFFFFF; }
 
 h4 {
   color: cadetblue; }
 
+label {
+  color: #FFFFFF; }
+
 .gradiente {
-  background: linear-gradient(#CDD0D0, #363636);
+  background: #333;
   width: 100%; }
 
 .footerLinks a {
@@ -99,10 +105,13 @@ h2 {
   color: cadetblue; }
 
 p {
-  color: #030303; }
+  color: #FFFFFF; }
 
 h4 {
   color: cadetblue; }
+
+label {
+  color: #FFFFFF; }
 
 .navBg {
   background-color: #333; }
