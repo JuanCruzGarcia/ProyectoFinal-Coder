@@ -5,7 +5,7 @@ $negroT: #030303;
 $nav:#333;
 $blanco: #FFFFFF;
 h1 {
-    color: $celeste;
+    color: $blanco;
 }
 
 h2 {
@@ -13,14 +13,26 @@ h2 {
  }
 
  p {
-    color: $blanco;
+    color: $negroF;
+ }
+
+ h3{
+ color: $blanco;
  }
 
 h4{
-    color: $celeste;
+    color: $blanco;
  }
 
 label {
     color: $blanco;
 }
 
+h6{
+color: $blanco;
+    
+}
+
+.textoP p{
+    color: $blanco;
+}
