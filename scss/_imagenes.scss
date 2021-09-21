@@ -17,14 +17,20 @@
     width: 10%;
 }
 
-.transformacion :hover{
-   transform: scale(1.5, 1.5);
-   transition: 2s;
-   }
+
 
 @media only screen and (max-width: 767px){
 
 .imgProductos{
    padding:10px;
+   display: inline-block;
+   width: 50%;
 }
+
+.imgMarcas{
+   width: 30%;
+   display: inline-block;
    }
+
+   
+}

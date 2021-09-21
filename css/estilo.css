@@ -22,9 +22,14 @@ h6 {
 .textoP p {
   color: #FFFFFF; }
 
+body h1 font {
+  size: 200% !important;
+  family: "Relaway", sans-serif !important;
+  weight: bold !important; }
+
 body h2 font {
-  size: 200%;
-  family: "Relaway", sans-serif;
+  size: 200% !important;
+  family: "Relaway", sans-serif !important;
   weight: bold; }
 
 body h4 {
@@ -32,8 +37,8 @@ body h4 {
   weight: bold; }
 
 body p font {
-  size: 110%;
-  family: "Relaway", sans-serif; }
+  size: 110% !important;
+  family: "Relaway", sans-serif !important; }
 
 .negrita {
   font-weight: bold; }
@@ -52,13 +57,14 @@ body p font {
 .player {
   width: 10%; }
 
-.transformacion :hover {
-  transform: scale(1.5, 1.5);
-  transition: 2s; }
-
 @media only screen and (max-width: 767px) {
   .imgProductos {
-    padding: 10px; } }
+    padding: 10px;
+    display: inline-block;
+    width: 50%; }
+  .imgMarcas {
+    width: 30%;
+    display: inline-block; } }
 
 h1 {
   color: #FFFFFF; }
@@ -84,7 +90,7 @@ h6 {
 .textoP p {
   color: #FFFFFF; }
 
-.gradiente {
+.fondoFooter {
   background: #333;
   width: 100%; }
 
@@ -104,7 +110,7 @@ h6 {
 @media only screen and (max-width: 767px) {
   .footerLinks a {
     text-decoration: none;
-    color: #030303;
+    color: #FFFFFF;
     display: block;
     margin-left: 5px; } }
 
@@ -146,14 +152,14 @@ header,
     height: 100vh; } }
 
 .top-nav-collapse {
-  background-color: #78909c !important; }
+  background-color: #030303 !important; }
 
 .navbar:not(.top-nav-collapse) {
   background: transparent !important; }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #78909c !important; } }
+    background: #030303 !important; } }
 
 h1 {
   letter-spacing: 8px; }
@@ -164,6 +170,30 @@ h5 {
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px; }
+
+h1 {
+  color: #FFFFFF; }
+
+h2 {
+  color: cadetblue; }
+
+p {
+  color: #363636; }
+
+h3 {
+  color: #FFFFFF; }
+
+h4 {
+  color: #FFFFFF; }
+
+label {
+  color: #FFFFFF; }
+
+h6 {
+  color: #FFFFFF; }
+
+.textoP p {
+  color: #FFFFFF; }
 
 html,
 body,
@@ -186,14 +216,14 @@ header,
     height: 650px; } }
 
 .top-nav-collapse {
-  background-color: #3f51b5 !important; }
+  background-color: #030303 !important; }
 
 .navbar:not(.top-nav-collapse) {
   background: transparent !important; }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3f51b5 !important; } }
+    background: #030303 !important; } }
 
 .rgba-gradient {
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
@@ -212,6 +242,9 @@ h6 {
 .paddingSeccion {
   padding: 50px; }
 
+.formPadding {
+  padding: 15px; }
+
 @media only screen and (max-width: 767px) {
   .map-responsive {
     overflow: hidden;
@@ -225,4 +258,4 @@ h6 {
     width: 100%;
     position: absolute; }
   .Destacados {
-    margin-left: 50px; } }
+    margin-left: 48px; } }

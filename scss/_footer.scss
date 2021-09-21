@@ -1,6 +1,6 @@
 @import "colores";
 
-.gradiente{
+.fondoFooter{
     background: #333;
     width: 100%;
  
@@ -28,9 +28,10 @@
 
     .footerLinks a{
         text-decoration: none;
-        color: $negroT; 
+        color: $blanco; 
         display: block;
         margin-left: 5px;
    }
     
+
 }
