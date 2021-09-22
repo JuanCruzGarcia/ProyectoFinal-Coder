@@ -10,6 +10,9 @@ header,
 }
 
 
+.fondoNav{
+background-color: rgba(0, 0, 0, 0.6) !important;
+}
 
 @media (max-width: 740px) {
   html,
@@ -24,9 +27,6 @@ header,
   background-color: $negroT !important;
 }
 
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
